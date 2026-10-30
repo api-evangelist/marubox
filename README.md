@@ -64,5 +64,135 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Business Box is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://marubox.jp/
+Business Box provides an integrated booking and payment platform tailored for Japanese small businesses. It combines a booking page, calendar synchronization with Google and Outlook, and Stripe‑based pre‑payment handling, all in one service. Users can publish booking pages, automatically sync availability, and receive payments directly into their Stripe accounts without additional fees. The service includes free usage tiers, supports Japanese public holidays, offers bilingual (Japanese/English) interfaces, and is built for the Japanese market.
+
+**Areas:** Company · Booking · Payments · Calendar · Japan
+
+## Business Box on APIs.io
+
+Everything profiled for Business Box is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/marubox/](https://apis.io/providers/marubox/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [Business Box Account API](https://apis.io/apis/marubox/marubox-account-api/) — Who the token belongs to
+- [Business Box Bookings API](https://apis.io/apis/marubox/marubox-bookings-api/) — Read, create and cancel bookings
+- [Business Box Event types API](https://apis.io/apis/marubox/marubox-event-types-api/) — What people can book, and when
+- [Business Box Invites API](https://apis.io/apis/marubox/marubox-invites-api/) — Single-use booking links
+- [Business Box Webhooks API](https://apis.io/apis/marubox/marubox-webhooks-api/) — Subscribe to events
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### AsyncAPI (1)
+
+Event-driven and webhook contracts.
+
+- [Marubox Webhooks](https://apis.io/asyncapis/marubox/marubox-webhooks/)
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Marubox Agentic Access](https://apis.io/agentic-access/marubox/marubox-agentic-access/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Marubox Context](https://apis.io/jsonld/marubox/marubox-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Business Box API Rules](https://apis.io/rules/marubox/marubox-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Marubox Authentication](https://apis.io/security/marubox/marubox-authentication/)
+- [Marubox Domain Security](https://apis.io/security/marubox/marubox-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Marubox Plans Pricing](https://apis.io/plans/marubox/marubox-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Marubox Rate Limits](https://apis.io/rate-limits/marubox/marubox-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://marubox.jp/)
+- [Documentation](https://marubox.jp/developers/)
+- [Getting started](https://marubox.jp/guide/)
+- [API reference](https://marubox.jp/developers/reference/)
+- [Sign up](https://app.marubox.jp/login)
+- [Support](https://marubox.jp/support)
+- [Changelog](https://marubox.jp/developers/changelog/)
+- [Terms of service](https://marubox.jp/terms)
+- [Privacy policy](https://marubox.jp/privacy)
+- [GitHub](https://github.com/marubox)
+
+## API Evangelist rating
+
+**Kin Score 56.1** — strong · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 75.0 |
+| Contract quality | 63.7 |
+| Contract governance | 22.0 |
+| Operational transparency | 50.0 |
+| Developer ergonomics | 63.7 |
+| Access clarity | 55.3 |
+
+**Agent readiness 34.5** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | documented (partial credit) |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | documented (partial credit) |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | yes |
+| Agent Skills | derived (partial credit) |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 22.3** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/marubox/](https://apis.io/providers/marubox/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Business Box: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/marubox/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
